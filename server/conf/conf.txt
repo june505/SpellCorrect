@@ -1,0 +1,4 @@
+myip 127.0.0.1 
+myport 8888
+mydict ../dict/dict.txt
+
