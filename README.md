@@ -1,5 +1,5 @@
 # SpellCorrect
-一、项目简介及工作原理
+一、工作原理
 	拼写纠错
 	这是一个单词拼写纠错程序。分为客户端与服务端。
 
@@ -36,4 +36,13 @@
 		5、C++11 fuction_bind实现多态。
 		6、Socket网络编程
 
-
+四、编译方式
+		项目使用GNU make进行编译，makefile文件放置src
+	子文件夹中，其余工作仅仅需要在shellscpt中进行。
+	脚本运行顺序为：
+		1、./compile.sh 编译
+		2、./install.sh 安装
+		3、./clean.sh 清理
+		4、./run.sh 运行
+	
+	如果已经编译与安装之后，仅仅需要运行run.sh文件即可。
